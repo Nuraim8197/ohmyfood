@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* shrikhand :titre et logo */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+/* header */
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 3%;
+}
+header h1{
+    font-family: 'Shrikhand', 'cursive';
+    margin: auto;
+    padding: 15px 0;
+}
+/* head image */
+.headimg{
+    /* max-height: 300px; */
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+/* menu */
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    border-radius: 25px;
+    background-color: #F6F6F6;
+    position: relative;
+    margin-top: -10%;
+}
+.menu h1{
+    flex: 1;
+    font-family: 'shrikhand','cursive';
+}
+.menu h2{
+    border-bottom: #99E2D0 solid;
+    font-family: 'roboto','sans-serif';
+}
+/* bouton */
+.btn{
+    /* backgroud color gradient */
+    background: linear-gradient(to top left, #9356dc,#FF79DA); 
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 15px;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #353535;
+    color: white;
+    padding-bottom: 10px;
+}
+footer h1{
+    font-family: 'Shrikhand', 'cursive';
+    font-size: medium;
+    padding: 6% 5%;
+    margin: 0;
+}
+footer ul{
+    list-style: none;
+    padding: 0 5%;
+    margin: 0;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer li{
+    padding: 1% 0;
+}
+.fa-cutlery:before, .fa-utensils:before{
+    margin-right: 7px;
+}
