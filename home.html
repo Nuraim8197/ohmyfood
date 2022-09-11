@@ -11,6 +11,14 @@
     <title>OhMyFood-Accueil</title>
 </head>
 <body>
+    <div class="loader">
+        <div class="lds-ellipsis">
+            <div class="lds-ellipsis"></div>
+            <div class="lds-ellipsis"></div>
+            <div class="lds-ellipsis"></div>
+            <div class="lds-ellipsis"></div>
+        </div>
+    </div>
     <header>
         <h1>ohmyfood</h1>
         <div class="city">
@@ -27,21 +35,11 @@
         </div>
         <div class="function">
             <h1>Fonctionnement</h1>
-            <div class="choose">
-                <span class="number">1</span>
-                <i class="fa-solid fa-mobile-screen-button"></i>
-                <span>Choisissez un restaurant</span>
-            </div>
-            <div class="compose">
-                <span class="number">2</span>
-                <i class="fa-solid fa-list-ul"></i>
-                <span>composez votre restaurant </span>
-            </div>
-            <div class="degust">
-                <span class="number">3</span>
-                <i class="fa-solid fa-store"></i>
-                <span>Dégustez au restaurant</span>
-            </div>
+            <ol>
+                <li><i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</li>
+                <li><i class="fa-solid fa-list"></i>Composez votre menu</li>
+                <li><i class="fa-solid fa-store"></i>Dégustez au restaurant</li>
+            </ol>
         </div>
         <div class="restaurants">
             <h1>Restaurants</h1>
@@ -114,7 +112,7 @@
                 <span>Devenir partenaire</span></a>
             </li>
             <li><a href="#">Mentions légales</a></li>
-            <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
+            <li><a href="maildiv">Contact</a></li>
         </ul>
     </footer>
 </body>
