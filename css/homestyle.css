@@ -67,7 +67,7 @@ header h1{
     background-color: #F6F6F6;
     height: 100vh;
     inset: 0;
-    z-index: 1;
+    z-index: 2;
     opacity: 1;
     animation: vanish 0.15s 1.5s forwards;
 }
@@ -236,11 +236,37 @@ header h1{
 .card-content p{
     margin: 0;
 }
-.fa-regular, .fa-heart{
-    cursor: pointer;
-    font-size: 24px;
+.card-heart_stack{
+    position: relative;
+}
+.fa-heart{
+    /* cursor: pointer; */
+    font-size: 1.5rem;
+    color: black;  
+    position: absolute;
+    right: 15px;
+}
+/* hover heart */
+.fa-heart{
+    background: linear-gradient(to top left,#9356dc,#FF79DA);
+    -webkit-background-clip: text;
+    background-clip: text;
     color: black;
-    
+}
+.card-heart_stack .fa-regular{
+    z-index: 1;
+}
+.card-heart_stack .fa-solid{
+    color: white;
+    z-index: 0;
+}
+.card-heart_stack .fa-solid:hover{
+    color: transparent;
+    z-index: 1;
+}
+.card-heart_stack .fa-regular:hover{
+    color: white;
+    z-index: 0;
 }
 /* card "new" */
 .--new{
