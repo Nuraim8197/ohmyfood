@@ -49,11 +49,12 @@ header h1{
     flex: 1;
     font-family: 'shrikhand','cursive';
     text-align: start;
+    font-size: 1.5rem;
 }
 .fa-heart{
     cursor: pointer;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 20px;
     font-size: 1.5rem;
 }
 /* heart hover */
@@ -232,5 +233,6 @@ footer li{
 @media (min-width: 992px){
     .menu h1{
         text-align: center;
+        font-size: 2rem;
     }
 }
