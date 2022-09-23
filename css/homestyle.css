@@ -171,6 +171,7 @@ header h1{
     list-style: none;
     font-weight: bold;
     position: relative;
+    cursor: default;
 }
 .function_contain_numero:hover{
     background-color: #F5EDFF;
@@ -297,7 +298,7 @@ footer h1{
     font-family: 'Shrikhand', 'cursive';
     font-size: large;
     font-weight: 300;
-    padding: 30px 0 20px 5%;
+    padding: 30px 0 20px 4%;
     margin: 0;
 }
 footer ul{
