@@ -33,7 +33,6 @@ header h1{
 }
 /* head image */
 .headimg{
-    /* max-height: 300px; */
     height: 380px;
     width: 100%;
     object-fit: cover;
@@ -109,14 +108,12 @@ header h1{
 .content{
     font-family: 'roboto','sans-serif';
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     width: 100%;
     border-radius: 25px;
     background-color: white;
     box-shadow: 0px 6px 5px var(--dark-grey);
     margin-top: 20px;
-    /* padding: 20px; */
     animation: fade 2s;
     animation-fill-mode: both;
     overflow: hidden;
@@ -176,7 +173,6 @@ header h1{
 }
 /* bouton */
 .btn{
-    /* backgroud color gradient */
     font-family: 'roboto', 'sans-serif';
     background: linear-gradient(to top left, var(--primary-color), var(--secondary-color)); 
     color: white;

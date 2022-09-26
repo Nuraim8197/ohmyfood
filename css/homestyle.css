@@ -22,7 +22,6 @@ header{
 }
 header h1{
     font-family: 'Shrikhand', 'cursive';
-    /* box-shadow: 0 0 8px grey; */
     margin: 0;
     padding: 15px;
 }
@@ -51,7 +50,6 @@ header h1{
     padding: 3%;
 }
 .main_btn{
-    /* backgroud color gradient */
     background: linear-gradient(to top left, var(--primary-color), var(--secondary-color)); 
     color: white;
     border-radius: 25px;
@@ -230,7 +228,6 @@ header h1{
     object-fit: cover;
 }
 .card-footer{
-    /* display: flex; */
     padding: 3%;
     align-items: center;
     position: relative;
@@ -248,7 +245,6 @@ header h1{
     margin: 0;
 }
 .fa-heart{
-    /* cursor: pointer;*/
     font-size: 1.5rem;
     color: black;
     position: absolute;
